@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Nitin Maurya, an Information Technology student interested in web development and AI.">
+  <title>Nitin Maurya | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- CSS-only dark mode switch )(no JavaScript -->
+  <input type="checkbox" id="theme" class="sr-only">
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- 1. HEADER / NAVIGATION -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">Nitin Maurya</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="theme" class="theme-toggle" title="Switch light or dark theme"><span class="sr-only">Toggle dark mode</span></label>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 2. HERO / HOME -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-role">IT Student and AI Enthusiast</p>
+          <h1>Hi, I'm Nitin Maurya. I build clean websites and explore AI.</h1>
+          <p class="hero-intro">
+            I study Information Technology at Deen Dayal Upadhyaya Gorakhpur University.
+            I enjoy turning ideas into pages that are easy to read, and using AI tools
+            to solve everyday problems. I am looking for an internship where I can keep learning.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#projects">See my projects</a>
+            <a class="btn btn-outline" href="#contact">Contact me</a>
+            <a class="btn btn-outline" href="Nitin_Maurya_Resume.pdf" download>Download resume</a>
+          </div>
+        </div>
+        <div class="hero-badge">
+          <img src="images/profile.jpg" alt="Portrait of Nitin Maurya wearing glasses and a pink t-shirt">
+        </div>
+      </div>
+    </section>
+
+    <!-- Ribbon (CSS animation) -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Open to internships</span><span>Web development</span><span>Prompt engineering</span><span>Learning cloud computing</span>
+        <span>Open to internships</span><span>Web development</span><span>Prompt engineering</span><span>Learning cloud computing</span>
+      </div>
+    </div>
+
+    <!-- 3. ABOUT ME -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About me</h2>
+        <div class="about-grid">
+          <p class="about-bio">
+            I am an Information Technology student persuing B.Tech from Deen Dayal Upadhyaya Gorakhpur University who likes to build and organise things.
+            I have worked on a disaster management project for the Smart India Hackathon,
+            completed the Samsung Innovation Campus program in coding, and written and tested
+            AI prompts during a remote internship. I also organise student seminars, which
+            has helped me get better at communication and planning.
+          </p>
+          <div class="about-facts">
+            <h3>Education</h3>
+            <p>Information Technology, Deen Dayal Upadhyaya Gorakhpur University (2024 to 2028). CGPA 8.34.</p>
+            <p>Class XII (CBSE), 2023. 75.4%.</p>
+            <h3>Career interests</h3>
+            <p>Web development, AI tools and prompt engineering, cloud computing.</p>
+          </div>
+        </div>
+
+        <h3 class="sub-heading">Experience and leadership</h3>
+        <ul class="timeline">
+          <li><strong>AI Prompt Engineering Intern</strong>, InAmigos Foundation (remote)
+            <span class="when">Aug to Sep 2026</span>
+            Wrote and tested prompts for planning, learning, problem-solving, decision-making and summarising.</li>
+          <li><strong>Member, Cloud Computing Program</strong>, DDU Gorakhpur University
+            <span class="when">2026 to present</span>
+            Organised and managed seminars for students on cloud computing topics.</li>
+          <li><strong>Program Organizer</strong>, Adi Yuwan Foundation, DDU Gorakhpur University
+            <span class="when">2025 to present</span>
+            Organised seminars and led sessions for students on time management.</li>
+        </ul>
+
+        <h3 class="sub-heading">Achievements</h3>
+        <ul class="achievements">
+          <li>Took part in the Smart India Hackathon with a disaster management system.</li>
+          <li>Completed the Samsung Innovation Campus program in Coding and Programming.</li>
+          <li>Attended the AI Tools Workshop by be10x.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4. SKILLS -->
+    <section id="skills" class="section section-tint">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-groups">
+          <article class="skill-group">
+            <h3>Languages</h3>
+            <ul class="tags"><li>C++</li><li>Python</li><li>HTML5</li><li>CSS3</li><li>JavaScript</li></ul>
+          </article>
+          <article class="skill-group">
+            <h3>AI and prompting</h3>
+            <ul class="tags"><li>Prompt engineering</li><li>Claude</li><li>AI tools</li></ul>
+          </article>
+          <article class="skill-group">
+            <h3>Developer tools</h3>
+            <ul class="tags"><li>Git</li><li>GitHub</li><li>Google Cloud</li><li>VS Code</li></ul>
+          </article>
+        </div>
+        <p class="learning"><strong>Currently learning:</strong> cloud computing and Google Cloud.</p>
+      </div>
+    </section>
+
+    <!-- 5. PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="card-grid">
+
+          <article class="card">
+            <h3>N.E.R.V.E</h3>
+            <p>Natural Emergency Reporting and Visualization Engine. A disaster management system for quick reporting, AI-based risk evaluation and better distribution of resources, so authorities and volunteers can respond faster.</p>
+            <p class="tech"><strong>Built with: Python, Flask, NumPy, HTML, CSS, JavaScript...</strong> AI tools, risk evaluation</p>
+          </article>
+
+          <article class="card">
+            <h3>Everyday Prompt Library</h3>
+            <p>A set of prompts I wrote and tested with an AI tool for planning, learning, problem-solving, decision-making and summarising, made during my internship at InAmigos Foundation.</p>
+            <p class="tech"><strong>Built with: Ai tools for testing the Prompts.</strong> Prompt engineering, AI tools</p>
+          </article>
+
+          <article class="card">
+            <h3>This Portfolio Website</h3>
+            <p>A responsive personal website with a sticky navigation bar, project cards, a dark mode switch and animations, all made without JavaScript.</p>
+            <p class="tech"><strong>Built with: HTML, CSS only </strong> HTML5, CSS3, Flexbox, Grid</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CONTACT -->
+    <section id="contact" class="section section-tint">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="contact-lead">I would be happy to hear from you about internships or projects.</p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:nitinmaurya082005@gmail.com">nitinmaurya082005@gmail.com</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/NITIN-1408">github.com/NITIN-1408</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nitin-maurya-08k">linkedin.com/in/nitin-maurya-08k</a></li>
+          <li><strong>Resume:</strong> <a href="Nitin_Maurya_Resume.pdf" download>Download my resume (PDF)</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 7. FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Nitin Maurya. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
